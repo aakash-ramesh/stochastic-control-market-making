@@ -1,0 +1,26 @@
+Notes on benchmark interpretation
+
+1. Maker convention:
+   maker_rebate_per_unit = 0.005
+   is treated as a positive cash rebate earned on passive fills.
+
+2. Same market, bigger book:
+   Across N-scenarios, the market environment is fixed:
+       Lambda_b, Lambda_a, k_b, k_a, spread, rebate, taker fee,
+       and impact parameters do not change.
+   Only the short-option book size changes through N, and inventory controls scale as:
+       Q_max(N)  = N * Q_max(1)
+       q_step(N) = N * q_step(1)
+
+3. Passive-MM caveat:
+   Pure passive market making can look artificially strong because the model
+   does not include adverse selection or permanent price impact from passive fills.
+   Therefore passive-MM should be judged jointly by:
+       - expected terminal wealth per option,
+       - normalized cumulative tracking error,
+       - drawdown,
+       - inventory behavior.
+
+4. Large-N reporting:
+   Cross-N comparisons are reported using per-option wealth and normalized
+   tracking error (dividing by N^2), so that results remain interpretable.

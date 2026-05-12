@@ -1,0 +1,65 @@
+[
+  {
+    "N": 1,
+    "strategy": "Optimal (HJB-QVI), N=1",
+    "mean_terminal_wealth_per_option": 3.4872429404147502,
+    "mean_cum_tracking_error_per_option_sq": 0.22802850870354036,
+    "reward_to_tracking_ratio": 2.8397084560327657
+  },
+  {
+    "N": 1,
+    "strategy": "Pure Delta Hedge, N=1",
+    "mean_terminal_wealth_per_option": -0.43448075285181287,
+    "mean_cum_tracking_error_per_option_sq": 0.0020313660929419464,
+    "reward_to_tracking_ratio": -0.43359995261017936
+  },
+  {
+    "N": 1,
+    "strategy": "Pure Passive MM, N=1",
+    "mean_terminal_wealth_per_option": 3.487957918204114,
+    "mean_cum_tracking_error_per_option_sq": 0.41024228304993265,
+    "reward_to_tracking_ratio": 2.4733040273481968
+  },
+  {
+    "N": 100,
+    "strategy": "Optimal (HJB-QVI), N=100",
+    "mean_terminal_wealth_per_option": 2.8813512265405334,
+    "mean_cum_tracking_error_per_option_sq": 0.016037796386978304,
+    "reward_to_tracking_ratio": 2.8358701189922204
+  },
+  {
+    "N": 100,
+    "strategy": "Pure Delta Hedge, N=100",
+    "mean_terminal_wealth_per_option": -0.7017195575423318,
+    "mean_cum_tracking_error_per_option_sq": 0.0020313660929419464,
+    "reward_to_tracking_ratio": -0.7002969979656753
+  },
+  {
+    "N": 100,
+    "strategy": "Pure Passive MM, N=100",
+    "mean_terminal_wealth_per_option": 3.487957918204062,
+    "mean_cum_tracking_error_per_option_sq": 0.4102422830499326,
+    "reward_to_tracking_ratio": 2.47330402734816
+  },
+  {
+    "N": 1000,
+    "strategy": "Optimal (HJB-QVI), N=1000",
+    "mean_terminal_wealth_per_option": 2.3511900968700754,
+    "mean_cum_tracking_error_per_option_sq": 0.009496391915678288,
+    "reward_to_tracking_ratio": 2.329072313382242
+  },
+  {
+    "N": 1000,
+    "strategy": "Pure Delta Hedge, N=1000",
+    "mean_terminal_wealth_per_option": -1.3437689990005226,
+    "mean_cum_tracking_error_per_option_sq": 0.0020313660929419464,
+    "reward_to_tracking_ratio": -1.341044845971302
+  },
+  {
+    "N": 1000,
+    "strategy": "Pure Passive MM, N=1000",
+    "mean_terminal_wealth_per_option": 3.487957918204084,
+    "mean_cum_tracking_error_per_option_sq": 0.4102422830499326,
+    "reward_to_tracking_ratio": 2.4733040273481754
+  }
+]

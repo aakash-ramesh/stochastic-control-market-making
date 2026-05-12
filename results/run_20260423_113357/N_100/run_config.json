@@ -1,0 +1,43 @@
+{
+  "model": {
+    "S0": 100.0,
+    "sigma": 0.02,
+    "mu": 0.0,
+    "r": 0.0,
+    "K": 100.0,
+    "T": 1.0,
+    "num_options": 100,
+    "Q_max": 100.0,
+    "q_step": 5.0,
+    "reference_Q_max": 1.0,
+    "reference_q_step": 0.05,
+    "eta": 0.1,
+    "Lambda_b": 140.0,
+    "Lambda_a": 140.0,
+    "k_b": 1.5,
+    "k_a": 1.5,
+    "maker_rebate_per_unit": 0.005,
+    "eps_taker": 0.03,
+    "half_spread": 0.05,
+    "kappa": 0.02,
+    "beta": 1.5,
+    "include_initial_premium": true
+  },
+  "grid": {
+    "N_t": 200,
+    "N_S": 121,
+    "n_std": 5.0,
+    "delta_min": 0.001,
+    "delta_max": 2.0,
+    "N_delta": 61,
+    "qvi_max_iter": 200,
+    "qvi_tol": 1e-08,
+    "qvi_relaxation": 0.7
+  },
+  "sim": {
+    "N_paths": 600,
+    "seed": 42,
+    "dt_sim": 0.005,
+    "record_n_sample_paths": 5
+  }
+}
